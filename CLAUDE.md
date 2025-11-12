@@ -1,3 +1,6 @@
+
+@sessions/CLAUDE.sessions.md
+
 # cc-sessions
 
 A Claude Code workflow framework that enforces structured AI pair programming through Discussion-Alignment-Implementation-Check (DAIC) methodology.
