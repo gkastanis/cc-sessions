@@ -1,0 +1,61 @@
+{
+  "name": "cc-sessions-drupal",
+  "version": "0.1.0",
+  "description": "Drupal-optimized extension for cc-sessions with quality gates, task templates, and specialized agents",
+  "type": "commonjs",
+  "main": "./javascript/install.js",
+  "bin": {
+    "cc-sessions-drupal": "./javascript/install.js"
+  },
+  "scripts": {
+    "test": "echo \"No test specified yet\"",
+    "install-dev": "./install.sh"
+  },
+  "keywords": [
+    "drupal",
+    "drupal-10",
+    "drupal-11",
+    "cc-sessions",
+    "claude-code",
+    "phpcs",
+    "behat",
+    "quality-gates",
+    "workflow",
+    "development"
+  ],
+  "author": "zorz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkastanis/cc-sessions-drupal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gkastanis/cc-sessions-drupal/issues"
+  },
+  "homepage": "https://github.com/gkastanis/cc-sessions-drupal#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "preferGlobal": true,
+  "files": [
+    "install.sh",
+    "javascript/",
+    "agents/",
+    "protocols/",
+    "commands/",
+    "templates/",
+    "docs/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "peerDependencies": {
+    "cc-sessions": ">=0.3.0"
+  },
+  "dependencies": {}
+}
